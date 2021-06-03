@@ -8,5 +8,23 @@
   </head>
   <body>
     <h1>Good day sir! Welcome to tauri test app</h1>
+    <hr />
+    <h2>iframe issues test</h2>
+    <iframe title="simple frame" width="300" height="200" src="/iframe.html">
+    </iframe>
+    <iframe
+      title="same frame with query"
+      width="300"
+      height="200"
+      src="/iframe.html?query=EURUSD"
+    >
+    </iframe>
+    <iframe
+      title="same frame with fragment"
+      width="300"
+      height="200"
+      src="/iframe.html#fragment=EURUSD"
+    >
+    </iframe>
   </body>
 </html>
